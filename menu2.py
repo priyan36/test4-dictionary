@@ -16,6 +16,20 @@ while True:
         accno = int(input("Enter Accno: "))
         depamt = int(input("Enter Deposit amt: "))
         Bank.deposit(accno, depamt)
+
+#4. Fixed Deposit
+#5. Exit
+#2
+#Enter Accno: 123
+#Enter Deposit amt: 1200
+#Traceback (most recent call last):
+ # File "c:\Users\priya\Desktop\VS Code\test4 dictionary\menu2.py", line 18, in <module>
+  #  Bank.deposit(accno, depamt)
+#TypeError: Bank.deposit() missing 1 required positional argument: 'depamt'
+#PS C:\Users\priya\Desktop\VS Code\test4 dictionary> ""
+
+#depamt have been declred in fanction properly but still getting this error.
+#same error appears in withdraw,fd were the widamt and fdamt seems to be missing.
       
     elif serv == 3:
         accno = int(input("Enter Accno: "))
